@@ -74,7 +74,7 @@
         .section2 {
             width: 100%;
             height: 1000px;
-            background-image: url(../img/newindex14.png);
+            background-image: url(./img/newindex14.png);
             /* background-color: #FFFDF6; */
             display: flex;
             flex-direction: column;
