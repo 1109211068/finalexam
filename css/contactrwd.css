@@ -1,0 +1,186 @@
+/* ===== 修正 RWD 右邊留白問題 ===== */
+
+/* 1. 確保所有元素不超出容器 */
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+/* 2. 確保 body 和 html 沒有橫向滾動 */
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* 3. 修正桌面版容器寬度 */
+.stitle .container {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    max-width: 100%; /* 改為 100% */
+    width: 95%; /* 確保有邊距 */
+    margin: 0 auto;
+    padding: 0 20px; /* 增加內邊距 */
+    box-sizing: border-box;
+}
+
+.section3 .container {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    max-width: 100%; /* 改為 100% */
+    width: 95%; /* 確保有邊距 */
+    margin: 0 auto;
+    padding: 0 20px; /* 增加內邊距 */
+    box-sizing: border-box;
+}
+
+/* 4. 讓卡片更響應式 */
+.card {
+    width: calc(33.333% - 20px); /* 改為百分比寬度 */
+    min-width: 280px; /* 設定最小寬度 */
+    max-width: 360px; /* 設定最大寬度 */
+    height: 300px;
+    background-color: white;
+    overflow: hidden;
+    border-right: 2px dashed #ccc;
+    box-sizing: border-box;
+}
+
+.card1 {
+    width: calc(33.333% - 20px); /* 改為百分比寬度 */
+    min-width: 280px; /* 設定最小寬度 */
+    max-width: 360px; /* 設定最大寬度 */
+    height: 300px;
+    background-color: white;
+    overflow: hidden;
+    border-right: 2px dashed #ccc;
+    box-sizing: border-box;
+}
+
+/* 5. 確保背景圖片正確顯示 */
+.stitle {
+    width: 100%;
+    height: 800px;
+    background-image: url(/img/g1920800.png);
+    background-size: cover; /* 確保背景覆蓋整個容器 */
+    background-position: center center; /* 置中顯示 */
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20px; /* 增加內邊距 */
+    box-sizing: border-box;
+}
+
+.section3 {
+    width: 100%;
+    height: 1500px;
+    background-image: url(/img/g192015003.png);
+    background-size: cover; /* 確保背景覆蓋整個容器 */
+    background-position: center center; /* 置中顯示 */
+    background-repeat: no-repeat;
+    padding: 0 20px; /* 增加內邊距 */
+    box-sizing: border-box;
+}
+
+/* 6. 修正表單容器 */
+.section3 .container1 {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px;
+    width: 95%; /* 從 100% 改為 95% */
+    max-width: 800px;
+    animation: slideUp 0.6s ease-out;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 3px solid #237F61;
+    box-sizing: border-box;
+}
+
+/* 7. 針對平板的特別修正 */
+@media (max-width: 1024px) and (min-width: 768px) {
+    
+    /* 確保容器不會造成橫向滾動 */
+    .stitle .container,
+    .section3 .container {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 10px;
+        gap: 5px; /* 減少間距 */
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    
+    /* 平板版卡片寬度調整 */
+    .card,
+    .card1 {
+        width: calc(33.333% - 10px);
+        min-width: 240px;
+        max-width: 300px;
+        height: 280px;
+    }
+    
+    /* 確保文字容器不會超出 */
+    .stitle .txt {
+        width: 95%;
+        max-width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    
+    .section2txt {
+        width: 95%;
+        max-width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    
+    .section3 .section4txt {
+        width: 95%;
+        max-width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    
+    /* 表單在平板上的調整 */
+    .section3 .container1 {
+        width: 90%;
+        max-width: 700px;
+        padding: 25px;
+        margin: 20px auto;
+    }
+}
+
+/* 8. 手機版進一步優化 */
+@media (max-width: 767px) {
+    
+    /* 手機版讓卡片垂直排列 */
+    .stitle .container,
+    .section3 .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        padding: 0 15px;
+    }
+    
+    .card,
+    .card1 {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        min-height: 280px;
+        border-right: none;
+        border-bottom: 2px dashed #ccc;
+        border-radius: 8px;
+    }
+    
+    .card:last-child,
+    .card1:last-child {
+        border-bottom: none;
+    }
+}

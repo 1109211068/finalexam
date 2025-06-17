@@ -1,0 +1,521 @@
+ *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        
+        
+
+        .svg {
+            position: relative;
+            z-index: 10;
+        }
+
+        .svg .main img{
+
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+
+
+        .full .pic {
+            margin-top: -30px;
+        }
+
+        .full .pic img {
+            width: 100%;
+            height: auto;
+        }
+
+
+
+
+        
+
+        .section1{
+            width: 100%;
+            position: relative;
+        }
+
+
+
+        .section1 img{
+            position: absolute;
+            width: 100%;
+            top: -120px;
+            
+        }
+
+        
+
+        .good img{
+            position: absolute;
+            z-index: 20;
+            top: 28%;
+            left: 12%;
+        }
+
+        .good1 img{
+            position: absolute;
+            z-index: 20;
+            right: 10%;
+            top: 26%;
+        }
+
+
+        .section2 {
+            width: 100%;
+            height: 1000px;
+            background-image: url(/img/newindex14.png);
+            /* background-color: #FFFDF6; */
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        .grass{
+            position: absolute;
+            z-index: 20;
+            top: 130%;
+            left: 10%;
+        }
+
+        .grass2{
+            position: absolute;
+            z-index: 20;
+            top: 130%;
+            right: 10%;
+        }
+
+        .grass3{
+            position: absolute;
+            z-index: 100;
+            top: 230%;
+            left: 10%;
+        }
+
+        .grass4{
+            position: absolute;
+            z-index: 24;
+            top: 230%;
+            right: 10%;
+        }
+
+        
+
+
+        .section2 .title2{
+            margin: 0 auto;
+            margin-top: 300px;
+            margin-bottom: 50px;
+        }
+        .section2 .title2 p{
+            text-align: center;
+            margin-top: 5px;
+        }
+
+        .section2 .container .grid-item p{
+            font-size: 12px;
+        }
+
+        .section2 .container .grid-item .ptitle{
+            color: #237F61 ;
+            font-size: 1rem;
+        }
+
+        
+
+        .section2 .container {
+            display: grid;
+            grid-template-columns: repeat(4, 240px);
+            gap: 40px;
+            max-width: 1080px;
+            margin: 0 auto;
+/* 
+            background-color: red;  */
+        }
+
+        .section2 .container .grid-item{
+            height: 308px;
+            background-color: white;
+            border-radius: 5%;
+            position: relative;
+            transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+            }
+
+            /* --- .section2 .container .grid-item:hover 懸停樣式 --- */
+        .section2 .container .grid-item:hover {
+            transform: translateY(-10px); /* 向上移動 10px，你可以調整這個值 */
+        
+        }
+
+            .section2 .container .grid-item:nth-child(1) {
+            top: -30px; /* 向上移動 30px，你可以調整這個值 */
+            }
+
+            .section2 .container .grid-item:nth-child(4) {
+                top: -30px; /* 向上移動 30px，與第一個 grid-item 保持一致 */
+            }
+
+        .section2 .grid-item .pic{
+            width: 240px;
+            height: 160px;
+        }
+
+        .section2 .grid-item .pic img{
+            border-radius: 15px 15px 0 0;
+        }
+
+        .section2 .grid-item p {
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+                .section3{
+            width: 100%;
+            position: relative;
+        }
+
+        .section3 img{
+            position: absolute;
+            width: 100%;
+            top: -120px;
+            
+        }
+
+
+        .section4{
+        width: 100%;
+        height: 1630px;
+        background-image: url(/img/newindex12.png);
+        padding-top: 1px;
+
+
+        }
+
+        .section4 .box{
+        
+            width: 1200px;
+            height: 1200px;
+            /* background-color: #fa0; */
+            margin: 0 auto;
+            margin-top: 300px;
+            
+            
+        }
+
+
+        .section4 .box .txt h2{
+            text-align: center;
+            font-size: 2rem;
+            
+            
+        }
+
+        .section4  .boxm{
+            width: 100%;
+            height: 1000px;
+            
+            /* background-color: aqua; */
+            
+            
+            
+            
+
+            
+        }
+
+
+        .section4 .boxm a{
+            text-decoration: none;
+            color: black;
+        }
+        .section4 .boxm .box1{
+            width: 100%;
+            height: 500px;
+
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+            background-color: white;
+            border-radius: 20px;
+            
+        }
+
+        .section4 .box1 .card .txt h1{
+            font-size: 1.6rem;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            color: #237F61 ;
+        }
+        .section4 .box1 .card .txt p{
+            margin-bottom: 20px;
+        }
+
+        .section4 .box1 .card .txt button{
+            width: 100%;
+            border-radius: 30px;
+            border: 2px solid #F4B7B7;
+            background-color: white;
+            padding: 5px 25px;
+            font-size: 1rem;
+            color: #F4B7B7;
+            transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+            cursor: pointer;
+        }
+
+        /* 讓按鈕的父元素（.card）在被滑鼠懸停時，其內部的 button 改變顏色 */
+        .section4 .box1 .card:hover .txt button {
+            background-color: #F4B7B7; /* 懸停在 card 上時，按鈕背景變成藍色 */
+            color: #ffffff; /* 文字變成白色 */
+            border-color: #F4B7B7; /* 邊框顏色變深藍 */
+        }
+
+        /* 為了更好的用戶體驗，你可能還想讓按鈕本身被點擊時，也有不同的顏色 */
+        .section4 .box1 .card .txt button:active {
+            background-color: #F4B7B7; /* 按鈕被點擊時，顏色進一步變深 */
+            border-color: #F4B7B7;
+            transform: translateY(1px); /* 輕微下壓效果 */
+        }
+
+        .section4 .box1 .card .pic img {
+    /* ... 圖片原有的樣式，例如 border-radius 等 ... */
+    transition: transform 0.3s ease-in-out; /* 加入過渡效果，讓放大縮小更平滑 */
+    transform-origin: center center; /* 設定縮放的中心點，預設就是中心，但明確寫出來更好 */
+    display: block; /* 確保圖片能正常應用 transform */
+    max-width: 100%; /* 確保圖片響應式 */
+    
+    
+}
+/* 當滑鼠懸停在整個 .card 上時，讓裡面的圖片放大 */
+.section4 .box1 .card:hover .pic img {
+    transform: scale(1.1); /* 圖片放大 10%，你可以調整這個數值 */
+}
+
+/* (可選) 為了防止圖片放大時溢出 card 邊界，可以在 .pic 或 .card 上設定 overflow: hidden; */
+/* 根據你的設計，如果圖片圓角，通常 .pic 會設定 overflow: hidden; */
+.section4 .box1 .card .pic {
+    overflow: hidden; /* 隱藏圖片超出此容器的部分 */
+    border-radius: 10px; /* 假設你的圖片容器也有圓角 */
+    /* 這裡的高度通常是固定的，以避免卡片佈局因為圖片大小變化而跳動 */
+    /* height: 260px; /* 例如，如果圖片是 340x260，這裡設定高度 */
+}
+
+
+
+
+        .section4 .boxm .box2{
+            width: 100%;
+            height: 400px;
+            background-color: white;
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+            border-radius: 20px;
+
+        }
+
+        .section4 .box1 .card{
+            width: 350px;
+            height: 500px;
+            background-color: white;
+            padding: 5px;
+            
+        }
+        
+        .section4 .box1 .card .pic{
+            margin-top: 5px;
+
+        }
+
+        .section4 .box1 .card .pic img{
+            border-radius: 10px;
+            width: 340px;
+            height: 260px;
+        }
+
+
+
+        .section4 .box2 .card2{
+            width: 200px;
+            height: 400px;
+            background-color: white;
+            padding: 10px;
+
+            display: flex;             /* 啟用 Flexbox 佈局 */
+            flex-direction: column;    /* **讓 .card2 內的子元素（圖片和文字）垂直堆疊** */
+
+            align-items: center;       /* **在交叉軸（水平方向）上置中所有子元素** */
+            text-align: center;   
+            border-radius: 20px;
+
+        }
+
+        .section4 .box2 .card2 .pic img{
+            border-radius: 10px;
+        }
+
+        .section4 .box2 .card2 .txt h1{
+            font-size: 1.4rem;
+            color: #237F61;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .section4 .box2 .card2 .txt p{
+            margin-bottom: 10px;
+        }
+
+        .section4 .box2 .card2 .txt button{
+            width: 100%;
+            border-radius: 30px;
+            border: 2px solid #F4B7B7;
+            background-color: white;
+            padding: 5px 25px;
+            font-size: 1rem;
+            color: #F4B7B7;
+            transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+            cursor: pointer;
+        }
+
+        /* 讓按鈕的父元素（.card）在被滑鼠懸停時，其內部的 button 改變顏色 */
+        .section4 .box2 .card2:hover .txt button {
+            background-color: #F4B7B7; /* 懸停在 card 上時，按鈕背景變成藍色 */
+            color: #ffffff; /* 文字變成白色 */
+            border-color: #F4B7B7; /* 邊框顏色變深藍 */
+        }
+
+        /* 為了更好的用戶體驗，你可能還想讓按鈕本身被點擊時，也有不同的顏色 */
+        .section4 .box2 .card2 .txt button:active {
+            background-color: #F4B7B7; /* 按鈕被點擊時，顏色進一步變深 */
+            border-color: #F4B7B7;
+            transform: translateY(1px); /* 輕微下壓效果 */
+        }
+
+            .section4 .box2 .card2 .pic img {
+    /* ... 圖片原有的樣式，例如 border-radius 等 ... */
+    transition: transform 0.3s ease-in-out; /* 加入過渡效果，讓放大縮小更平滑 */
+    transform-origin: center center; /* 設定縮放的中心點，預設就是中心，但明確寫出來更好 */
+    display: block; /* 確保圖片能正常應用 transform */
+    max-width: 100%; /* 確保圖片響應式 */
+    height: auto; /* 保持圖片比例 */
+    
+}
+
+        .section4 .box2 .card2:hover .pic img {
+    transform: scale(1.1); /* 圖片放大 10%，你可以調整這個數值 */
+}
+
+
+.section4 .box2 .card2 .pic {
+    overflow: hidden; /* 隱藏圖片超出此容器的部分 */
+    border-radius: 10px; /* 假設你的圖片容器也有圓角 */
+    /* 這裡的高度通常是固定的，以避免卡片佈局因為圖片大小變化而跳動 */
+    /* height: 260px; /* 例如，如果圖片是 340x260，這裡設定高度 */
+}
+
+
+
+
+
+
+        /* --- Footer Styles --- */
+    .main-footer {
+        background-color: #333; 
+        color: #f4f4f4;
+        padding: 60px 20px 20px;
+        font-size: 1rem;
+        line-height: 1.8;
+    }
+
+    .main-footer .footer-content {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-bottom: 30px; 
+    }
+
+    .main-footer .footer-section {
+        flex: 1; 
+        min-width: 250px; 
+        margin: 20px;
+    }
+
+    .main-footer .footer-section h3 {
+        color: #FFD700;
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .main-footer .footer-section p,
+    .main-footer .footer-section ul {
+        text-align: left;
+    }
+
+    .main-footer .footer-section ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .main-footer .footer-section ul li {
+        margin-bottom: 10px;
+    }
+
+    .main-footer .footer-section ul li a {
+        color: #f4f4f4;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .main-footer .footer-section ul li a:hover {
+        color: #007BFF; 
+    }
+
+    .main-footer .footer-section.contact p {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .main-footer .footer-section.contact i {
+        margin-right: 10px;
+        color: #FFD700;
+    }
+
+    .main-footer .footer-bottom {
+        text-align: center;
+        padding-top: 20px;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        color: #aaa;
+        font-size: 0.9rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,441 @@
+/* ========================================
+   平板設備響應式設計 (768px - 1024px)
+======================================== */
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    
+    /* Section 1 調整 */
+    .section1 img {
+        top: -60px; /* 減少負向距離 */
+    }
+    
+    .good img {
+        display: none;
+    }
+    
+    .good1 img {
+       display: none;
+    }
+
+    /* Section 2 網格佈局調整 */
+    .section2 {
+        height: 1000px; /* 調整高度 */
+    }
+    
+    .section2 .title2 {
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+    
+    .section2 .container {
+        grid-template-columns: repeat(2, 280px); /* 改為2列佈局 */
+        gap: 30px;
+        max-width: 620px;
+        justify-content: center;
+    }
+    
+    .section2 .container .grid-item {
+        height: 350px; /* 增加高度以容納內容 */
+    }
+    
+    .section2 .grid-item .pic {
+        width: 280px;
+        height: 180px;
+    }
+    
+    .section2 .grid-item .pic img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    /* 移除特定項目的位置偏移 */
+    .section2 .container .grid-item:nth-child(1),
+    .section2 .container .grid-item:nth-child(4) {
+        top: 0;
+    }
+
+    /* 草地裝飾調整 */
+    .grass, .grass2 {
+        display: none;
+    }
+    
+    .grass {
+        display: none;
+    }
+    
+    .grass2 {
+       display: none;
+    }
+    
+    .grass3, .grass4 {
+       display: none;
+    }
+    
+    .grass3 {
+      display: none;
+    }
+    
+    .grass4 {
+        display: none;
+    }
+
+    /* Section 3 調整 */
+    .section3 img {
+        top: -50px;
+    }
+
+    /* Section 4 調整 */
+    .section4 {
+        height: auto;
+        min-height: 1400px;
+        padding: 20px;
+    }
+    
+    .section4 .box {
+        width: 95%;
+        max-width: 700px;
+        height: auto;
+        margin-top: 200px;
+    }
+    
+    .section4 .box .txt h2 {
+        font-size: 1.8rem;
+        margin-bottom: 30px;
+    }
+    
+    .section4 .boxm {
+        height: auto;
+    }
+    
+    /* Box1 卡片調整 - 改為垂直堆疊 */
+    .section4 .boxm .box1 {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        gap: 30px;
+    }
+    
+    .section4 .box1 .card {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        min-height: 420px;
+    }
+    
+    .section4 .box1 .card .pic img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+    }
+    
+    .section4 .box1 .card .txt h1 {
+        font-size: 1.4rem;
+    }
+    
+    .section4 .box1 .card .txt p {
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }
+
+    /* Box2 卡片調整 */
+    .section4 .boxm .box2 {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+        gap: 20px;
+    }
+    
+    .section4 .box2 .card2 {
+        width: 180px;
+        height: 350px;
+        margin: 10px;
+    }
+    
+    .section4 .box2 .card2 .txt h1 {
+        font-size: 1.2rem;
+    }
+    
+    .section4 .box2 .card2 .txt p {
+        font-size: 0.9rem;
+    }
+
+    /* Footer 調整 */
+    .main-footer {
+        padding: 40px 15px 15px;
+    }
+    
+    .main-footer .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .main-footer .footer-section {
+        min-width: 300px;
+        margin: 15px 0;
+        text-align: center;
+    }
+    
+    .main-footer .footer-section h3 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    
+    .main-footer .footer-section p,
+    .main-footer .footer-section ul {
+        text-align: center;
+    }
+}
+
+/* 手機板 */
+
+@media screen and (max-width: 767px) {
+    
+    /* 基本設定 */
+    body {
+        font-size: 14px;
+    }
+    
+    /* Section 1 手機版調整 */
+    .section1 img {
+        top: -40px;
+    }
+    
+    .good img, .good1 img {
+       display: none;
+    }
+    
+    .good img {
+        display: none;
+    }
+    
+    .good1 img {
+        display: none;
+    }
+
+    /* Section 2 手機版網格佈局 */
+    .section2 {
+        height: auto;
+        min-height: 800px;
+        padding: 20px 15px;
+    }
+    
+    .section2 .title2 {
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+    
+    .section2 .title2 h2 {
+        font-size: 1.5rem;
+    }
+    
+    .section2 .container {
+        grid-template-columns: 1fr; /* 單列佈局 */
+        gap: 20px;
+        max-width: 300px;
+        padding: 0 10px;
+    }
+    
+    .section2 .container .grid-item {
+        height: 280px;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 280px;
+    }
+    
+    .section2 .grid-item .pic {
+        width: 100%;
+        height: 140px;
+    }
+    
+    .section2 .grid-item .pic img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .section2 .container .grid-item p {
+        font-size: 11px;
+        line-height: 1.4;
+    }
+    
+    .section2 .container .grid-item .ptitle {
+        font-size: 0.9rem;
+    }
+
+    /* 草地裝飾手機版調整 */
+    .grass, .grass2, .grass3, .grass4 {
+       display: none;
+    }
+    
+    .grass, .grass3 {
+        display: none;
+    }
+    
+    .grass2, .grass4 {
+        display: none;
+    }
+    
+    .grass, .grass2 {
+       display: none;
+    }
+    
+    .grass3, .grass4 {
+        display: none;
+    }
+
+    /* Section 3 手機版調整 */
+    .section3 img {
+        top: -40px;
+    }
+
+    /* Section 4 手機版調整 */
+    .section4 {
+        height: auto;
+        min-height: 1200px;
+        padding: 15px 10px;
+    }
+    
+    .section4 .box {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        margin-top: 100px;
+        padding: 0 10px;
+    }
+    
+    .section4 .box .txt h2 {
+        font-size: 1.4rem;
+        margin-bottom: 25px;
+        padding: 0 10px;
+    }
+    
+    .section4 .boxm {
+        height: auto;
+    }
+
+    /* Box1 手機版卡片 */
+    .section4 .boxm .box1 {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 10px;
+        gap: 25px;
+        margin: 15px 0;
+    }
+    
+    .section4 .box1 .card {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        min-height: 380px;
+        padding: 10px;
+    }
+    
+    .section4 .box1 .card .pic {
+        margin-top: 10px;
+    }
+    
+    .section4 .box1 .card .pic img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+    }
+    
+    .section4 .box1 .card .txt h1 {
+        font-size: 1.2rem;
+        margin: 15px 0 10px 0;
+    }
+    
+    .section4 .box1 .card .txt p {
+        font-size: 0.85rem;
+        line-height: 1.4;
+        margin-bottom: 15px;
+    }
+    
+    .section4 .box1 .card .txt button {
+        font-size: 0.9rem;
+        padding: 8px 20px;
+    }
+
+    /* Box2 手機版卡片 */
+    .section4 .boxm .box2 {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 10px;
+        gap: 20px;
+        margin: 15px 0;
+    }
+    
+    .section4 .box2 .card2 {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+        min-height: 300px;
+        padding: 15px;
+        margin: 10px 0;
+    }
+    
+    .section4 .box2 .card2 .pic img {
+        width: 100%;
+        height: 120px;
+        object-fit: cover;
+    }
+    
+    .section4 .box2 .card2 .txt h1 {
+        font-size: 1.1rem;
+        margin: 10px 0;
+    }
+    
+    .section4 .box2 .card2 .txt p {
+        font-size: 0.8rem;
+        line-height: 1.3;
+        margin-bottom: 12px;
+    }
+    
+    .section4 .box2 .card2 .txt button {
+        font-size: 0.85rem;
+        padding: 6px 15px;
+    }
+
+    /* Footer 手機版調整 */
+    .main-footer {
+        padding: 30px 15px 15px;
+        font-size: 0.9rem;
+    }
+    
+    .main-footer .footer-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+    
+    .main-footer .footer-section {
+        min-width: 100%;
+        margin: 10px 0;
+        text-align: center;
+    }
+    
+    .main-footer .footer-section h3 {
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    
+    .main-footer .footer-section p,
+    .main-footer .footer-section ul {
+        text-align: center;
+        font-size: 0.85rem;
+    }
+    
+    .main-footer .footer-section ul li {
+        margin-bottom: 8px;
+    }
+    
+    .main-footer .footer-bottom {
+        font-size: 0.8rem;
+        padding-top: 15px;
+    }
+}
