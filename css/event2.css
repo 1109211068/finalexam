@@ -87,7 +87,7 @@
          .stitle{
     width: 100%;
     height: 800px;
-    background-image: url(/img/g1920800.png);
+    background-image: url(../img/g1920800.png);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -142,7 +142,7 @@
  .stitle2 {
             width: 100%;
             height: 700px;
-            background-image: url(/img/19207003.png);
+            background-image: url(../img/19207003.png);
         }
        .stitle2 .container1 {
             width: 1000px;
