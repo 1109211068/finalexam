@@ -6,6 +6,22 @@
         height: auto;
     }
 
+    .good img {
+        display: none;
+    }
+    
+    .good1 img {
+       display: none;
+    }
+
+    .grass {
+        display: none;
+    }
+    
+    .grass2 {
+       display: none;
+    }
+
     /* === 主視覺圖片調整 === */
     .full {
         position: relative;
@@ -341,6 +357,22 @@
     .svg .main img {
         width: 100%;
         height: auto;
+    }
+
+    .good img {
+        display: none;
+    }
+    
+    .good1 img {
+       display: none;
+    }
+
+    .grass {
+        display: none;
+    }
+    
+    .grass2 {
+       display: none;
     }
 
     

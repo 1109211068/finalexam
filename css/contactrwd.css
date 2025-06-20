@@ -6,6 +6,22 @@
     max-width: 100%;
 }
 
+.good img {
+        display: none;
+    }
+    
+    .good1 img {
+       display: none;
+    }
+
+    .grass {
+        display: none;
+    }
+    
+    .grass2 {
+       display: none;
+    }
+
 /* 2. 確保 body 和 html 沒有橫向滾動 */
 html, body {
     overflow-x: hidden;
@@ -335,6 +351,22 @@ html, body {
     * {
         box-sizing: border-box;
         max-width: 100%;
+    }
+
+    .good img {
+        display: none;
+    }
+    
+    .good1 img {
+       display: none;
+    }
+
+    .grass {
+        display: none;
+    }
+    
+    .grass2 {
+       display: none;
     }
 
     html, body {

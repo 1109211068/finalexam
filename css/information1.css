@@ -17,6 +17,34 @@
             display: block;
         }
 
+        .good img{
+            position: absolute;
+            z-index: 20;
+            top: 28%;
+            left: 12%;
+        }
+
+        .good1 img{
+            position: absolute;
+            z-index: 20;
+            right: 10%;
+            top: 26%;
+        }
+
+         .grass{
+            position: absolute;
+            z-index: 20;
+            top: 110%;
+            left: 10%;
+        }
+
+        .grass2{
+            position: absolute;
+            z-index: 20;
+            top: 110%;
+            right: 10%;
+        }
+
         .full{
             position: relative;
         }
@@ -62,6 +90,7 @@
 
         .full .pic {
             margin-top: -30px;
+            z-index: 10;
         }
 
         .full .pic img {
@@ -81,13 +110,14 @@
             position: absolute;
             width: 100%;
             top: -120px;
+            z-index: 30;
             
         }
 
          .stitle{
     width: 100%;
     height: 800px;
-    background-image: url(/img/g1920800.png);
+    background-image: url(../img/g1920800.png);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -142,7 +172,7 @@
  .stitle2 {
             width: 100%;
             height: 700px;
-            background-image: url(/img/19207003.png);
+            background-image: url(../img/19207003.png);
         }
        .stitle2 .container1 {
             width: 1000px;
@@ -250,7 +280,7 @@
             
             width: 100%;
             height: 1000px;
-            background-image: url(/img/newbottom.png);
+            background-image: url(../img/newbottom.png);
         }
 
         .container3 .box{

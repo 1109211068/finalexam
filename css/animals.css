@@ -17,6 +17,36 @@
             display: block;
         }
 
+        .good img{
+            position: absolute;
+            z-index: 20;
+            top:80%;
+            left: 12%;
+        }
+
+        .good1 img{
+            position: absolute;
+            z-index: 20;
+            right: 10%;
+            top: 75%;
+        }
+
+        .grass{
+            position: absolute;
+            z-index: 20;
+            top: 280%;
+            left: 10%;
+        }
+
+        .grass2{
+            position: absolute;
+            z-index: 20;
+            top: 280%;
+            right: 10%;
+        }
+
+        
+
         
 
         .full .pic {

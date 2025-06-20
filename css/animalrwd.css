@@ -7,6 +7,22 @@
         height: auto;
     }
 
+    .good img {
+        display: none;
+    }
+    
+    .good1 img {
+       display: none;
+    }
+
+    .grass {
+        display: none;
+    }
+    
+    .grass2 {
+       display: none;
+    }
+
     /* === Section 1 調整 === */
 
 
@@ -336,6 +352,22 @@
     .svg .main img {
         width: 100%;
         height: auto;
+    }
+
+    .good img {
+        display: none;
+    }
+    
+    .good1 img {
+       display: none;
+    }
+
+    .grass {
+        display: none;
+    }
+    
+    .grass2 {
+       display: none;
     }
 
     /* === Section 1 調整 === */
