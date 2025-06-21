@@ -19,14 +19,14 @@
 
         .good img{
             position: absolute;
-            z-index: 20;
+            z-index: 40;
             top: 28%;
             left: 12%;
         }
 
         .good1 img{
             position: absolute;
-            z-index: 20;
+            z-index: 40;
             right: 10%;
             top: 26%;
         }
