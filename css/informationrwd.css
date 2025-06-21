@@ -24,6 +24,17 @@
         object-fit: cover;
     }
 
+    .good img {
+        display: none;
+    }
+    
+    .good1 img {
+       display: none;
+    }
+    .grass, .grass2 {
+        display: none;
+    }
+
     /* === 主視覺文字區塊調整 === */
     .full .pic2 {
         width: 90%;
@@ -406,6 +417,18 @@
         width: 100%;
         height: auto;
     }
+
+    .good img {
+        display: none;
+    }
+    
+    .good1 img {
+       display: none;
+    }
+    .grass, .grass2 {
+        display: none;
+    }
+
 
     /* === 主視覺圖片調整 === */
     .full {
