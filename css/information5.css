@@ -32,19 +32,20 @@
         }
 
 
-         .grass{
+          .grass{
             position: absolute;
-            z-index: 20;
+            z-index: 40;
             top: 110%;
             left: 10%;
         }
 
         .grass2{
             position: absolute;
-            z-index: 20;
+            z-index: 40;
             top: 110%;
             right: 10%;
         }
+
 
         .full{
             position: relative;
