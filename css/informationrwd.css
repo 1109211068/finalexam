@@ -448,9 +448,9 @@
 
     /* === 主視覺文字區塊調整 === */
     .full .pic2 {
-        width: 90%; /* 從 300px 調整為響應式 */
+        width: 90%;
         max-width: 200px;
-        height: auto; /* 從固定 107px 改為 auto */
+        height: auto; 
         min-height: 80px;
         z-index: 20;
         top: 120px;
@@ -461,18 +461,18 @@
     }
     .full .pic2 .txt {
         min-height: 40px;
-        top: -20px; /* 調整文字在圖片內的垂直位置 */
+        top: -20px; 
         padding: 0;
     }
 
     .full .pic2 .txt h1 {
-        font-size: 1rem; /* 進一步縮小字體 */
+        font-size: 1rem; 
         padding: 5px;
     }
 
     /* === Section 1 調整 === */
     .section1 img {
-        top: -30px; /* 進一步調整位置 */
+        top: -30px; 
         width: 100%;
         height: auto;
     }

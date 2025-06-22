@@ -27,7 +27,7 @@
 
 
     .section1 img {
-        top: -80px; /* 從 -120px 調整到 -80px */
+        top: -80px; 
         width: 100%;
         height: auto;
     }
@@ -39,7 +39,7 @@
     }
 
     .full .pic {
-        margin-top: -20px; /* 從 -30px 調整到 -20px */
+        margin-top: -20px; 
         width: 100%;
     }
 
@@ -52,12 +52,12 @@
     /* === 主視覺文字區塊調整 === */
     .full .pic2 {
         position: absolute;
-        width: 90%; /* 從 300px 調整為響應式 */
+        width: 90%; 
         max-width: 400px;
-        height: auto; /* 從固定 107px 改為 auto */
+        height: auto; 
         min-height: 80px;
         z-index: 20;
-        top: 30%; /* 從 35% 調整到 30% */
+        top: 30%;
         left: 50%;
         transform: translateX(-50%);
         display: flex;
@@ -68,11 +68,11 @@
 
     .full .pic2 .txt {
         position: absolute;
-        width: 100%; /* 從 300px 調整為 100% */
-        height: auto; /* 從 100px 改為 auto */
+        width: 100%; 
+        height: auto; 
         min-height: 60px;
         z-index: 20;
-        top: 15px; /* 從 -5% 調整到 0 */
+        top: 15px; 
         left: 50%;
         transform: translateX(-50%);
         display: flex;
@@ -86,8 +86,8 @@
         position: relative;
         color: white;
         z-index: 21;
-        font-size: 1.8rem; /* 調整字體大小 */
-        text-shadow: 2px 2px 4px rgba(0,0,0,0.7); /* 增加文字陰影提高可讀性 */
+        font-size: 1.8rem; 
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
         line-height: 1.2;
         margin: 0;
         padding: 10px;
@@ -96,7 +96,7 @@
     /* === 帶背景的 Section 調整 === */
     .section-with-bg {
         width: 100%;
-        height: 900px; /* 從 1153px 調整到 900px */
+        height: 900px; 
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
@@ -105,9 +105,9 @@
         justify-content: center;
         align-items: center;
         color: black;
-        font-size: 2rem; /* 從 2.5rem 調整到 2rem */
+        font-size: 2rem; 
         text-align: center;
-        padding: 30px 20px; /* 增加內邊距 */
+        padding: 30px 20px; 
         box-sizing: border-box;
         overflow: hidden;
     }
@@ -120,20 +120,20 @@
     }
 
     .section-with-bg h3 {
-        font-size: 1.4em; /* 從 1.5em 調整到 1.4em */
+        font-size: 1.4em;
         margin-bottom: 15px;
         line-height: 1.3;
     }
 
     .section-with-bg .row-text h4 {
-        font-size: 1.8rem; /* 從 2rem 調整到 1.8rem */
+        font-size: 1.8rem; 
         margin-bottom: 15px;
         line-height: 1.3;
     }
 
     .section-with-bg p {
-        font-size: 0.9em; /* 從 1em 調整到 0.9em */
-        max-width: 90%; /* 從 80% 調整到 90% */
+        font-size: 0.9em; 
+        max-width: 90%; 
         margin: 0 auto;
         line-height: 1.6;
     }
@@ -143,8 +143,8 @@
     .image-text-row2 {
         display: flex;
         align-items: center;
-        gap: 10px; /* 從 10px 調整到 20px */
-        margin-top: 60px; /* 從 100px 調整到 60px */
+        gap: 10px;
+        margin-top: 60px;
         flex-wrap: wrap;
         justify-content: center;
         padding: 0 20px;
@@ -159,7 +159,7 @@
     .image-text-row2 .row-image,
     .row-image {
         width: 100%;
-        max-width: 300px; /* 從 500px 調整到 400px */
+        max-width: 300px; 
         height: auto;
         border-radius: 10px;
     }
@@ -168,7 +168,7 @@
     .image-text-row2 .row-text,
     .row-text {
         width: 100%;
-        max-width: 400px; /* 從 500px 調整到 400px */
+        max-width: 400px; 
         font-size: 1rem;
         text-align: left;
         padding: 10px;
@@ -176,7 +176,7 @@
 
     .image-text-row .row-text h4,
     .image-text-row2 .row-text h4 {
-        font-size: 1.4rem; /* 從 1.6rem 調整到 1.4rem */
+        font-size: 1.4rem; 
         margin-bottom: 15px;
         line-height: 1.3;
         color: #333;
@@ -184,7 +184,7 @@
 
     .image-text-row .row-text p,
     .image-text-row2 .row-text p {
-        font-size: 0.95rem; /* 從 1rem 調整到 0.95rem */
+        font-size: 0.95rem;
         line-height: 1.6;
         color: #555;
         margin-bottom: 0;
@@ -194,8 +194,8 @@
     .main-footer {
         background-color: #333;
         color: #f4f4f4;
-        padding: 40px 20px 20px; /* 從 60px 調整到 40px */
-        font-size: 0.95rem; /* 從 1rem 調整到 0.95rem */
+        padding: 40px 20px 20px; 
+        font-size: 0.95rem;
         line-height: 1.7;
     }
 
@@ -203,32 +203,32 @@
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        max-width: 900px; /* 從 1200px 調整到 900px */
+        max-width: 900px;
         margin: 0 auto;
-        padding-bottom: 20px; /* 從 30px 調整到 20px */
+        padding-bottom: 20px; 
     }
 
     .main-footer .footer-section {
         flex: 1;
-        min-width: 200px; /* 從 250px 調整到 200px */
-        margin: 15px; /* 從 20px 調整到 15px */
-        text-align: center; /* 平板版本改為置中對齊 */
+        min-width: 200px;
+        margin: 15px;
+        text-align: center;
     }
 
     .main-footer .footer-section h3 {
         color: #FFD700;
-        font-size: 1.3rem; /* 從 1.5rem 調整到 1.3rem */
-        margin-bottom: 15px; /* 從 20px 調整到 15px */
-        text-align: center; /* 改為置中對齊 */
+        font-size: 1.3rem; 
+        margin-bottom: 15px; 
+        text-align: center;
     }
 
     .main-footer .footer-section p,
     .main-footer .footer-section ul {
-        text-align: center; /* 改為置中對齊 */
+        text-align: center; 
     }
 
     .main-footer .footer-section ul li {
-        margin-bottom: 8px; /* 從 10px 調整到 8px */
+        margin-bottom: 8px; 
     }
 
     .main-footer .footer-section ul li a {
@@ -237,56 +237,56 @@
     }
 
     .main-footer .footer-section.contact p {
-        justify-content: center; /* 聯絡資訊也置中對齊 */
+        justify-content: center; 
         text-align: center;
     }
 
     .main-footer .footer-bottom {
         text-align: center;
-        padding-top: 15px; /* 從 20px 調整到 15px */
+        padding-top: 15px;
         border-top: 1px solid rgba(255, 255, 255, 0.1);
         color: #aaa;
-        font-size: 0.85rem; /* 從 0.9rem 調整到 0.85rem */
+        font-size: 0.85rem; 
     }
 
     /* === Stitle 區塊調整 === */
     .stitle {
         width: 100%;
-        height: auto; /* 從固定 600px 改為 auto */
+        height: auto;
         min-height: 500px;
         background-color: #FFFDF6;
         display: flex;
         align-items: center;
         flex-direction: column;
-        padding: 40px 20px; /* 增加內邊距 */
+        padding: 40px 20px; 
         box-sizing: border-box;
     }
 
     .stitle .container {
-        width: 90%; /* 從 1200px 調整為響應式 */
+        width: 90%; 
         max-width: 800px;
-        height: auto; /* 從固定 500px 改為 auto */
+        height: auto;
         margin: 0 auto;
-        margin-top: 60px; /* 從 260px 大幅調整到 60px */
+        margin-top: 60px; 
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .stitle .pic {
-        width: 100%; /* 從 1000px 調整為 100% */
+        width: 100%; 
         max-width: 600px;
-        height: auto; /* 從固定 300px 改為 auto */
-        margin: 0 auto 30px auto; /* 增加下邊距 */
+        height: auto; 
+        margin: 0 auto 30px auto; 
     }
 
     .stitle .pic img {
         width: 100%;
-        height: auto; /* 從固定 300px 改為 auto */
-        max-height: 250px; /* 設定最大高度 */
+        height: auto;
+        max-height: 250px; 
         object-fit: cover;
-        border-radius: 15px; /* 從 20px 調整到 15px */
-        box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* 增加陰影效果 */
+        border-radius: 15px; 
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
 
     .stitle .container .txt {
@@ -295,10 +295,10 @@
     }
 
     .stitle .container .txt h2 {
-        font-size: 1.8rem; /* 從 2rem 調整到 1.8rem */
-        letter-spacing: 0.4rem; /* 從 0.6rem 調整到 0.4rem */
+        font-size: 1.8rem; 
+        letter-spacing: 0.4rem;
         text-align: center;
-        margin-top: 20px; /* 從 40px 調整到 20px */
+        margin-top: 20px; 
         margin-bottom: 15px;
         line-height: 1.3;
         color: #333;
@@ -313,21 +313,18 @@
         margin: 0;
     }
 
-    /* === 通用調整 === */
-    
-    /* 確保所有圖片在平板上都能正確縮放 */
     img {
         max-width: 100%;
         height: auto;
     }
 
-    /* 文字選取樣式優化 */
+
     ::selection {
         background-color: #237F61;
         color: white;
     }
 
-    /* 平板觸控優化 - 增加可點擊區域 */
+
     a, button {
         min-height: 44px;
         display: inline-flex;
@@ -336,7 +333,7 @@
         padding: 8px 12px;
     }
 
-    /* 確保容器不會超出螢幕寬度 */
+
     * {
         max-width: 100%;
         box-sizing: border-box;
@@ -371,9 +368,9 @@
     }
 
     /* === Section 1 調整 === */
-    /* 這裡可以選擇是否保留或進一步調整，取決於設計 */
+   
     .section1 img {
-        top: -30px; /* 進一步減少負向距離以適應小螢幕 */
+        top: -30px; 
         width: 100%;
         height: auto;
     }
@@ -397,9 +394,9 @@
 
     /* === 主視覺文字區塊調整 === */
     .full .pic2 {
-        width: 90%; /* 從 300px 調整為響應式 */
+        width: 90%;
         max-width: 200px;
-        height: auto; /* 從固定 107px 改為 auto */
+        height: auto; 
         min-height: 80px;
         z-index: 20;
         top: 120px;
@@ -411,94 +408,94 @@
 
     .full .pic2 .txt {
         min-height: 40px;
-        top: -20px; /* 調整文字在圖片內的垂直位置 */
+        top: -20px; 
         padding: 0;
     }
 
     .full .pic2 .txt h1 {
-        font-size: 1rem; /* 進一步縮小字體 */
+        font-size: 1rem;
         padding: 5px;
     }
 
     /* === 帶背景的 Section 調整 === */
     .section-with-bg {
-        height: auto; /* 手機版通常不需要固定高度，讓內容撐開 */
-        min-height: 600px; /* 至少給一個最小高度 */
-        padding: 20px 15px; /* 縮小內邊距 */
-        font-size: 1.5rem; /* 進一步縮小字體 */
+        height: auto; 
+        min-height: 600px; 
+        padding: 20px 15px; 
+        font-size: 1.5rem; 
     }
 
     .section-with-bg h3 {
-        font-size: 1.2em; /* 進一步縮小字體 */
+        font-size: 1.2em;
         margin-bottom: 10px;
     }
 
     .section-with-bg .row-text h4 {
-        font-size: 1.5rem; /* 進一步縮小字體 */
+        font-size: 1.5rem; 
         margin-bottom: 10px;
     }
 
     .section-with-bg p {
-        font-size: 0.8em; /* 進一步縮小字體 */
-        max-width: 95%; /* 讓段落佔用更多寬度 */
+        font-size: 0.8em; 
+        max-width: 95%; 
     }
 
     /* === 圖片文字排版調整 === */
     .image-text-row,
     .image-text-row2 {
-        flex-direction: column; /* 手機版強制垂直堆疊 */
-        gap: 10px; /* 調整垂直間距 */
-        margin-top: 40px; /* 調整上方間距 */
-        padding: 0 15px; /* 縮小左右內邊距 */
+        flex-direction: column; 
+        gap: 10px; 
+        margin-top: 40px;
+        padding: 0 15px;
     }
 
     .image-text-row .row-image,
     .image-text-row2 .row-image,
     .row-image {
-        width: 90%; /* 圖片佔據大部分寬度 */
-        max-width: 350px; /* 設定一個最大寬度 */
+        width: 90%; 
+        max-width: 350px; 
     }
 
     .image-text-row .row-text,
     .image-text-row2 .row-text,
     .row-text {
-        width: 90%; /* 文字區塊佔據大部分寬度 */
-        max-width: 350px; /* 設定一個最大寬度 */
-        text-align: center; /* 文字置中 */
-        padding: 5px; /* 縮小內邊距 */
+        width: 90%;
+        max-width: 350px;
+        text-align: center; 
+        padding: 5px;
     }
 
     .image-text-row .row-text h4,
     .image-text-row2 .row-text h4 {
-        font-size: 1.2rem; /* 進一步縮小字體 */
+        font-size: 1.2rem;
         margin-bottom: 10px;
     }
 
     .image-text-row .row-text p,
     .image-text-row2 .row-text p {
-        font-size: 0.85rem; /* 進一步縮小字體 */
+        font-size: 0.85rem;
     }
 
     /* === Footer 調整 === */
     .main-footer {
-        padding: 30px 15px 15px; /* 縮小內邊距 */
-        font-size: 0.85rem; /* 進一步縮小字體 */
+        padding: 30px 15px 15px; 
+        font-size: 0.85rem; 
     }
 
     .main-footer .footer-content {
-        flex-direction: column; /* 垂直堆疊 */
-        max-width: none; /* 手機版不需要最大寬度限制 */
+        flex-direction: column; 
+        max-width: none; 
         padding-bottom: 10px;
     }
 
     .main-footer .footer-section {
-        min-width: unset; /* 取消最小寬度限制 */
-        margin: 10px 0; /* 調整垂直外邊距 */
-        text-align: center; /* 保持置中 */
+        min-width: unset; 
+        margin: 10px 0;
+        text-align: center; 
     }
 
     .main-footer .footer-section h3 {
-        font-size: 1.2rem; /* 進一步縮小字體 */
+        font-size: 1.2rem;
         margin-bottom: 10px;
     }
 
@@ -512,51 +509,51 @@
 
     .main-footer .footer-bottom {
         padding-top: 10px;
-        font-size: 0.75rem; /* 進一步縮小字體 */
+        font-size: 0.75rem; 
     }
 
     /* === Stitle 區塊調整 === */
     .stitle {
-        height: 350px; /* 調整最小高度 */
-        padding: 30px 15px; /* 縮小內邊距 */
+        height: 350px; 
+        padding: 30px 15px; 
     }
 
     .stitle .container {
-        width: 100%; /* 佔用更多寬度 */
+        width: 100%; 
         margin-top: 40px; 
     }
 
     .stitle .pic {
-        width: 90%; /* 圖片佔用更多寬度 */
-        max-width: 300px; /* 限制最大寬度 */
-        margin: 0 auto 20px auto; /* 調整下邊距 */
+        width: 90%; 
+        max-width: 300px; 
+        margin: 0 auto 20px auto; 
     }
 
     .stitle .pic img {
-        max-height: 200px; /* 限制最大高度 */
-        border-radius: 10px; /* 調整圓角 */
+        max-height: 200px;
+        border-radius: 10px;
     }
 
     .stitle .container .txt h2 {
-        font-size: 1.5rem; /* 進一步縮小字體 */
-        letter-spacing: 0.2rem; /* 縮小字間距 */
+        font-size: 1.5rem;
+        letter-spacing: 0.2rem; 
         margin-top: 15px;
         margin-bottom: 10px;
     }
 
     .stitle .container .txt p {
-        font-size: 0.9rem; /* 進一步縮小字體 */
+        font-size: 0.9rem; 
     }
 
     /* === 通用調整 === */
-    /* 這些通用調整應該已經在最外面，但在手機版可以再次強調或微調 */
+    
     img {
         max-width: 100%;
         height: auto;
     }
 
     a, button {
-        min-height: 40px; /* 稍作調整，確保點擊區域足夠 */
+        min-height: 40px; 
         padding: 6px 10px;
     }
 }

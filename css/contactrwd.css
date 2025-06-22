@@ -19,10 +19,10 @@
     }
     
     .grass2 {
-       display: none;
+    display: none;
     }
 
-/* 2. 確保 body 和 html 沒有橫向滾動 */
+
 html, body {
     overflow-x: hidden;
     width: 100%;
@@ -31,7 +31,7 @@ html, body {
 }
 
 .section1 img {
-        top: -70px; /* 從 -120px 調整到 -80px */
+        top: -70px; 
         width: 100%;
         height: auto;
     }
@@ -42,10 +42,10 @@ html, body {
     display: flex;
     justify-content: center;
     gap: 0;
-    max-width: 100%; /* 改為 100% */
-    width: 95%; /* 確保有邊距 */
+    max-width: 100%;
+    width: 95%; 
     margin: 0 auto;
-    padding: 0 20px; /* 增加內邊距 */
+    padding: 0 20px; 
     box-sizing: border-box;
 }
 
@@ -53,18 +53,18 @@ html, body {
     display: flex;
     justify-content: center;
     gap: 0;
-    max-width: 100%; /* 改為 100% */
-    width: 95%; /* 確保有邊距 */
+    max-width: 100%;
+    width: 95%;
     margin: 0 auto;
-    padding: 0 20px; /* 增加內邊距 */
+    padding: 0 20px; 
     box-sizing: border-box;
 }
 
 /* 4. 讓卡片更響應式 */
 .card {
-    width: calc(33.333% - 20px); /* 改為百分比寬度 */
-    min-width: 280px; /* 設定最小寬度 */
-    max-width: 360px; /* 設定最大寬度 */
+    width: calc(33.333% - 20px); 
+    min-width: 280px; 
+    max-width: 360px; 
     height: 300px;
     background-color: white;
     overflow: hidden;
@@ -73,9 +73,9 @@ html, body {
 }
 
 .card1 {
-    width: calc(33.333% - 20px); /* 改為百分比寬度 */
-    min-width: 280px; /* 設定最小寬度 */
-    max-width: 360px; /* 設定最大寬度 */
+    width: calc(33.333% - 20px); 
+    min-width: 280px; 
+    max-width: 360px;
     height: 300px;
     background-color: white;
     overflow: hidden;
@@ -88,13 +88,13 @@ html, body {
     width: 100%;
     height: 800px;
     background-image: url(/img/g1920800.png);
-    background-size: cover; /* 確保背景覆蓋整個容器 */
-    background-position: center center; /* 置中顯示 */
+    background-size: cover;
+    background-position: center center; 
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 0 20px; /* 增加內邊距 */
+    padding: 0 20px; 
     box-sizing: border-box;
 }
 
@@ -102,8 +102,8 @@ html, body {
     width: 100%;
     height: 1500px;
     background-image: url(/img/g192015003.png);
-    background-size: cover; /* 確保背景覆蓋整個容器 */
-    background-position: center center; /* 置中顯示 */
+    background-size: cover;
+    background-position: center center; 
     background-repeat: no-repeat;
     padding: 0 20px; /* 增加內邊距 */
     box-sizing: border-box;
@@ -115,7 +115,7 @@ html, body {
     backdrop-filter: blur(10px);
     border-radius: 20px;
     padding: 40px;
-    width: 95%; /* 從 100% 改為 95% */
+    width: 95%;
     max-width: 800px;
     animation: slideUp 0.6s ease-out;
     margin: 0 auto;
@@ -124,21 +124,20 @@ html, body {
     box-sizing: border-box;
 }
 
-/* 7. 針對平板的特別修正 */
+
 
     
-    /* 確保容器不會造成橫向滾動 */
+    
     .stitle .container,
     .section3 .container {
         width: 100%;
         max-width: 100%;
         padding: 0 10px;
-        gap: 5px; /* 減少間距 */
+        gap: 5px; 
         flex-wrap: nowrap;
         justify-content: center;
     }
-    
-    /* 平板版卡片寬度調整 */
+
     .card,
     .card1 {
         width: calc(33.333% - 10px);
@@ -147,7 +146,7 @@ html, body {
         height: 280px;
     }
     
-    /* 確保文字容器不會超出 */
+
     .stitle .txt {
         width: 95%;
         max-width: 100%;
@@ -169,7 +168,7 @@ html, body {
         box-sizing: border-box;
     }
     
-    /* 表單在平板上的調整 */
+   
     .section3 .container1 {
         width: 90%;
         max-width: 700px;
@@ -186,7 +185,7 @@ html, body {
     max-width: 100%;
 }
 
-/* 2. 確保 body 和 html 沒有橫向滾動 */
+
 html, body {
     overflow-x: hidden;
     width: 100%;
@@ -195,7 +194,7 @@ html, body {
 }
 
 .section1 img {
-        top: -70px; /* 從 -120px 調整到 -80px */
+        top: -70px; 
         width: 100%;
         height: auto;
     }
@@ -206,10 +205,10 @@ html, body {
     display: flex;
     justify-content: center;
     gap: 0;
-    max-width: 100%; /* 改為 100% */
-    width: 95%; /* 確保有邊距 */
+    max-width: 100%;
+    width: 95%; 
     margin: 0 auto;
-    padding: 0 20px; /* 增加內邊距 */
+    padding: 0 20px; 
     box-sizing: border-box;
 }
 
@@ -219,18 +218,18 @@ html, body {
     display: flex;
     justify-content: center;
     gap: 0;
-    max-width: 100%; /* 改為 100% */
-    width: 95%; /* 確保有邊距 */
+    max-width: 100%;
+    width: 95%; 
     margin: 0 auto;
-    padding: 0 20px; /* 增加內邊距 */
+    padding: 0 20px; 
     box-sizing: border-box;
 }
 
 /* 4. 讓卡片更響應式 */
 .card {
-    width: calc(33.333% - 20px); /* 改為百分比寬度 */
-    min-width: 280px; /* 設定最小寬度 */
-    max-width: 360px; /* 設定最大寬度 */
+    width: calc(33.333% - 20px);
+    min-width: 280px;
+    max-width: 360px; 
     height: 300px;
     background-color: white;
     overflow: hidden;
@@ -239,9 +238,9 @@ html, body {
 }
 
 .card1 {
-    width: calc(33.333% - 20px); /* 改為百分比寬度 */
-    min-width: 280px; /* 設定最小寬度 */
-    max-width: 360px; /* 設定最大寬度 */
+    width: calc(33.333% - 20px); 
+    min-width: 280px; 
+    max-width: 360px; 
     height: 300px;
     background-color: white;
     overflow: hidden;
@@ -249,18 +248,18 @@ html, body {
     box-sizing: border-box;
 }
 
-/* 5. 確保背景圖片正確顯示 */
+
 .stitle {
     width: 100%;
     height: 800px;
     background-image: url(/img/g1920800.png);
-    background-size: cover; /* 確保背景覆蓋整個容器 */
-    background-position: center center; /* 置中顯示 */
+    background-size: cover; 
+    background-position: center center; 
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 0 20px; /* 增加內邊距 */
+    padding: 0 20px; 
     box-sizing: border-box;
 }
 
@@ -268,10 +267,10 @@ html, body {
     width: 100%;
     height: 1500px;
     background-image: url(/img/g192015003.png);
-    background-size: cover; /* 確保背景覆蓋整個容器 */
-    background-position: center center; /* 置中顯示 */
+    background-size: cover;
+    background-position: center center; 
     background-repeat: no-repeat;
-    padding: 0 20px; /* 增加內邊距 */
+    padding: 0 20px; 
     box-sizing: border-box;
 }
 
@@ -281,7 +280,7 @@ html, body {
     backdrop-filter: blur(10px);
     border-radius: 20px;
     padding: 40px;
-    width: 95%; /* 從 100% 改為 95% */
+    width: 95%; 
     max-width: 800px;
     animation: slideUp 0.6s ease-out;
     margin: 0 auto;
@@ -293,13 +292,13 @@ html, body {
 /* 7. 針對平板的特別修正 */
 
     
-    /* 確保容器不會造成橫向滾動 */
+ 
     .stitle .container,
     .section3 .container {
         width: 100%;
         max-width: 100%;
         padding: 0 10px;
-        gap: 5px; /* 減少間距 */
+        gap: 5px; 
         flex-wrap: nowrap;
         justify-content: center;
     }
@@ -378,16 +377,16 @@ html, body {
 
     /* === Section 1 調整 === */
     .section1 img {
-        top: -30px; /* 進一步減少負向距離以適應小螢幕 */
+        top: -30px; 
         width: 100%;
         height: auto;
     }
 
     /* === 主視覺文字區塊調整 === */
     .full .pic2 {
-        width: 90%; /* 從 300px 調整為響應式 */
+        width: 90%;
         max-width: 200px;
-        height: auto; /* 從固定 107px 改為 auto */
+        height: auto; 
         min-height: 80px;
         z-index: 20;
         top: 40px;
@@ -399,20 +398,20 @@ html, body {
 
     .full .pic2 .txt {
         min-height: 40px;
-        top: -20px; /* 調整文字在圖片內的垂直位置 */
+        top: -20px; 
         padding: 0;
     }
 
     .full .pic2 .txt h1 {
-        font-size: 1rem; /* 進一步縮小字體 */
+        font-size: 1rem; 
         padding: 5px;
     }
 
     /* === Stitle 主視覺區塊調整 === */
     .stitle {
         width: 100%;
-        height: auto; /* 手機版改為自適應高度 */
-        min-height: 500px; /* 設定最小高度 */
+        height: auto; 
+        min-height: 500px; 
         background-image: url(/img/g1920800.png);
         background-size: cover;
         background-position: center center;
@@ -420,7 +419,7 @@ html, body {
         display: flex;
         align-items: center;
         flex-direction: column;
-        padding: 30px 15px; /* 縮小內邊距 */
+        padding: 30px 15px; 
         box-sizing: border-box;
     }
 
@@ -435,10 +434,10 @@ html, body {
 
     .stitle .container {
         display: flex;
-        flex-direction: column; /* 手機版垂直排列 */
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 15px; /* 增加垂直間距 */
+        gap: 15px;
         width: 100%;
         max-width: 100%;
         margin: 0;
@@ -449,18 +448,18 @@ html, body {
     /* === 卡片樣式調整 === */
     .card,
     .card1 {
-        width: 90%; /* 手機版卡片佔用更多寬度 */
-        max-width: 320px; /* 限制最大寬度 */
-        min-width: unset; /* 取消最小寬度限制 */
-        height: 250px; /* 調整高度 */
+        width: 90%; 
+        max-width: 320px; 
+        min-width: unset; 
+        height: 250px;
         background-color: white;
         overflow: hidden;
-        border-right: none; /* 手機版取消右邊框 */
-        border-bottom: 2px dashed #ccc; /* 改為下邊框 */
+        border-right: none;
+        border-bottom: 2px dashed #ccc; 
         box-sizing: border-box;
-        margin-bottom: 15px; /* 增加下邊距 */
-        border-radius: 10px; /* 增加圓角 */
-        box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* 增加陰影 */
+        margin-bottom: 15px; 
+        border-radius: 10px; 
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
     }
 
     /* 最後一個卡片取消下邊框 */
@@ -474,20 +473,20 @@ html, body {
     .stitle .txt {
         width: 100%;
         max-width: 100%;
-        padding: 15px 10px; /* 調整內邊距 */
+        padding: 15px 10px; 
         box-sizing: border-box;
         text-align: center;
     }
 
     .stitle .txt h2 {
-        font-size: 1.5rem; /* 縮小標題字體 */
-        letter-spacing: 0.2rem; /* 縮小字間距 */
+        font-size: 1.5rem; 
+        letter-spacing: 0.2rem; 
         margin: 15px 0 10px 0;
         line-height: 1.3;
     }
 
     .stitle .txt p {
-        font-size: 0.9rem; /* 縮小段落字體 */
+        font-size: 0.9rem; 
         line-height: 1.5;
         margin: 0;
     }
@@ -497,36 +496,36 @@ html, body {
         max-width: 100%;
         padding: 0 15px;
         box-sizing: border-box;
-        text-align: center; /* 手機版文字置中 */
+        text-align: center; 
     }
 
     .section2txt h3 {
-        font-size: 1.3rem; /* 調整標題字體大小 */
+        font-size: 1.3rem; 
         margin-bottom: 15px;
         line-height: 1.3;
     }
 
     .section2txt p {
-        font-size: 0.85rem; /* 調整段落字體大小 */
+        font-size: 0.85rem; 
         line-height: 1.6;
     }
 
     /* === Section 3 表單區塊調整 === */
     .section3 {
         width: 100%;
-        height: auto; /* 手機版改為自適應高度 */
-        min-height: 800px; /* 設定最小高度 */
+        height: auto; 
+        min-height: 800px;
         background-image: url(/img/g192015003.png);
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
-        padding: 30px 15px; /* 縮小內邊距 */
+        padding: 30px 15px; 
         box-sizing: border-box;
     }
 
     .section3 .container {
         display: flex;
-        flex-direction: column; /* 垂直排列 */
+        flex-direction: column; 
         justify-content: center;
         align-items: center;
         width: 100%;
@@ -540,35 +539,35 @@ html, body {
         max-width: 100%;
         padding: 0 15px;
         box-sizing: border-box;
-        text-align: center; /* 手機版文字置中 */
-        margin-bottom: 20px; /* 增加下邊距 */
+        text-align: center; 
+        margin-bottom: 20px; 
     }
 
     .section3 .section4txt h3 {
-        font-size: 1.3rem; /* 調整標題字體大小 */
+        font-size: 1.3rem; 
         margin-bottom: 15px;
         line-height: 1.3;
-        color: white; /* 確保在背景上可讀 */
-        text-shadow: 2px 2px 4px rgba(0,0,0,0.7); /* 增加文字陰影 */
+        color: white; 
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
     }
 
     .section3 .section4txt p {
-        font-size: 0.85rem; /* 調整段落字體大小 */
+        font-size: 0.85rem;
         line-height: 1.6;
-        color: white; /* 確保在背景上可讀 */
-        text-shadow: 1px 1px 2px rgba(0,0,0,0.7); /* 增加文字陰影 */
+        color: white; 
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.7); 
     }
 
     /* === 表單容器調整 === */
     .section3 .container1 {
         background: rgba(255, 255, 255, 0.95);
         backdrop-filter: blur(10px);
-        border-radius: 15px; /* 稍微縮小圓角 */
-        padding: 25px 20px; /* 調整內邊距 */
-        width: 95%; /* 佔用更多寬度 */
-        max-width: 400px; /* 限制最大寬度 */
+        border-radius: 15px; 
+        padding: 25px 20px;
+        width: 95%; 
+        max-width: 400px; 
         animation: slideUp 0.6s ease-out;
-        margin: 20px auto 0 auto; /* 調整外邊距 */
+        margin: 20px auto 0 auto; 
         border: 3px solid #237F61;
         box-sizing: border-box;
     }
@@ -578,11 +577,11 @@ html, body {
     .section3 .container1 textarea,
     .section3 .container1 select {
         width: 100%;
-        padding: 12px 15px; /* 調整內邊距 */
-        margin-bottom: 15px; /* 調整下邊距 */
+        padding: 12px 15px; 
+        margin-bottom: 15px; 
         border: 2px solid #ddd;
         border-radius: 8px;
-        font-size: 0.9rem; /* 調整字體大小 */
+        font-size: 0.9rem;
         box-sizing: border-box;
         transition: border-color 0.3s ease;
     }
@@ -596,13 +595,13 @@ html, body {
     }
 
     .section3 .container1 textarea {
-        min-height: 100px; /* 設定文本域最小高度 */
-        resize: vertical; /* 只允許垂直調整大小 */
+        min-height: 100px; 
+        resize: vertical; 
     }
 
     .section3 .container1 button {
         width: 100%;
-        padding: 15px; /* 增加按鈕內邊距 */
+        padding: 15px; 
         background-color: #237F61;
         color: white;
         border: none;
@@ -633,7 +632,7 @@ html, body {
 
     /* === 通用調整 === */
     
-    /* 確保所有圖片在手機上都能正確縮放 */
+
     img {
         max-width: 100%;
         height: auto;
@@ -645,7 +644,6 @@ html, body {
         color: white;
     }
 
-    /* 手機觸控優化 - 增加可點擊區域 */
     a, button {
         min-height: 44px;
         display: inline-flex;
@@ -656,32 +654,32 @@ html, body {
         transition: all 0.3s ease;
     }
 
-    /* 確保容器不會超出螢幕寬度 */
+
     * {
         max-width: 100%;
         box-sizing: border-box;
     }
 
-    /* 防止水平滾動 */
+
     body {
         overflow-x: hidden;
     }
 
-    /* 優化手機版滾動體驗 */
+
     html {
         scroll-behavior: smooth;
         -webkit-overflow-scrolling: touch;
     }
 
-    /* 手機版隱藏不必要的元素或調整 */
+
     .desktop-only {
         display: none !important;
     }
 
-    /* 確保背景圖片在手機上正確顯示 */
+
     .stitle,
     .section3 {
-        background-attachment: scroll; /* 手機版使用 scroll 而非 fixed */
+        background-attachment: scroll;
     }
 }
 
